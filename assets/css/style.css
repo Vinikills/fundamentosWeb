@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,700&display=swap');
+.center{
+    text-align: left;
+    color: #00A6FB;
+}
+/* p{
+    background-color: #00A6FB;
+    border: 3px solid #95cdff;
+    font-family: Ubuntu, cursive;
+    border-radius: 1em;
+    border-style: solid;
+    padding: 5px ;
+} */
+body{
+    font-family: Ubuntu, cursive;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+
+main{
+ width:65%;
+}
+
+.navBar{
+    display: flex;
+    list-style-type: none;
+    padding:1.3vw 0vw;
+    margin-left: 1vw;
+
+}
+
+.navOptions{
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 1.2vw;
+    color:rgb(35, 209, 195);
+    opacity: 0.5;
+}
+
+.navOptions:hover{
+    opacity: 1;
+    text-shadow: 0 0 4px
+}
+
+.caixa{
+    border: 3px solid rgb(35, 209, 195);
+    background-color: #222;
+    border-radius: 1vw; 
+    padding: 1vw 1.5vw;
+    padding-bottom: 1.8vw;
+    box-shadow: 0 0 4px rgb(35, 209, 195)
+}
+
+.title{
+    text-align: center;
+    font-size: 2.8vw;
+}
+
+.text-Content{
+    font-size: 1.3vw;
+    text-align: justify;
+    line-height: 1.5vw;
+}
+
+.div-Img{
+ display: flex;
+ justify-content: center;
+}
+
+img{
+    border-radius: 60%;
+    border: 3px solid rgb(35, 209, 195);
+    box-shadow: 0 0 4px rgb(35, 209, 195);
+    height: 15vw;
+    width: 15vw;
+} 
+
+.carl-Title {
+    padding: 1.1vw;
+    text-align: center;
+   
+}
+
+.video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 7vw;
+}
+
+.video-frame{
+    box-shadow: 0 0 4px rgb(35, 209, 195);
+    aspect-ratio: 16/9;
+}
+
+ footer{
+display: flex;
+align-content: center;
+justify-content: center;
+font-sizer:0.5vw;
+}
+
+
+ /* Contato page */
+.contato{
+    display: flex;
+    flex-direction: column;
+}
+
+#nome, #email{
+    width: 20vw;
+}
+
+#assunto{
+    width: 30vw;
+}
+
+.enviar{
+    margin: 1vw 0vw;
+    width: 5vw;
+    background-color: #222;
+    border-color: rgb(35, 209, 195);
+    border-bottom-style: solid;
+    border-radius: 10px;
+    color: rgb(35, 209, 195);
+    opacity: 0.5;
+   
+}
+
+.enviar:hover{
+    box-shadow: 0 0 5px rgb(35, 209, 195);
+    background-color: #0c0c0c;
+    opacity: 1;
+}
+.mapa{
+    box-shadow: 0 0 10px rgb(35, 209, 195);
+}
+hr{
+    
+}
+/* .caixa{
+    display: flex;
+}
+.video {
+      display: flex;
+      justify-content: center;
+      aspect-ratio: 16/9;
+      width: 65vw;
+}
+      
+ul {
+    list-style: none;
+    font-family: Ubuntu, cursive;
+    display: flex;
+    gap: 5rem;
+    font-size: 32px;
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    background-image: radial-gradient(#01182400,#03476b,#01182400);
+    padding: 30px;
+    text-decoration: none;
+}
+h1{
+    border-radius: 6px;
+    font-family: Ubuntu, cursive;
+    font-size: 32px;
+    background-image: linear-gradient(270deg, #01182410 8%, #03476b 96%);
+}
+h2{
+    border-radius: 6px;
+    font-family: Ubuntu, cursive;
+    font-size: 24px;
+    background-image: linear-gradient(270deg, #01182407 8%, #03476b 96%);
+}
+
+.mapa {
+    width: 35vw;
+    aspect-ratio: 16/9;
+    border-radius: 8px;
+    /* código hexadecimal normalmente é feito com 6 digitos.. aqui tem 8, sendo que os ultimos 2, é pra colocar transparencia */
+    /* box-shadow: 12px 12px 12px #b618dda9; */
+/* }
+form{
+    display: grid;
+    justify-content:left;
+}
+label{
+    padding: 10px;
+}
+button{
+    background-color: #00A6FB;
+    box-shadow: 6px 12px 12px #b618dda9;
+    border-radius: 10px;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-bottom-color: #b618dda9;
+    border-right-color: #b618dda9;
+}
+button:hover{
+    background-color:#05608d;
+    border-bottom-color: #a4e1ff;
+    border-right-color: #64cbff;
+    box-shadow: 6px 12px 12px #00A6FB;
+} */ 
