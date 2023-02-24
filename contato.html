@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+        <title>Contato</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+
     <main>
         <nav>
             <ul class="navBar">
@@ -26,24 +27,34 @@
         <form>
             <div class="contato">
                 <label for="nome">Nome:</label> 
-            <input type="text" id="nome">  
+                <input type="text" id="nome"  onkeyup="validaNome()">
+                <div id="txtNome"></div>
+
+                <label for="email">E-mail:</label> 
+                <input type="email" id="email" onkeyup="validaEmail()">
+                <div id="txtEmail"></div>
     
-            <label for="email">E-mail:</label> 
-            <input type="text" id="email">  
+                <label for="assunto">Assunto:</label> 
+                <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>  
+                <div id="txtAssunto"></div>
     
-            <label for="assunto">Assunto:</label> 
-            <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>  
-    
-            <button class="enviar">Enviar</button>
+                <button class="enviar" onclick="enviar()">Enviar</button>
     
             </div>
                 
             <h3>Endereço:</h3>
             <p>Rua dos baianos, 22  São Paulo - SP</p>
     
-            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.92432549037!2d-46.77888768469204!3d-23.642880984642524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce538f812215a1%3A0xd1c8a3025671497!2sAssocia%C3%A7%C3%A3o%20Jd%20Leonidas%20Moreira!5e0!3m2!1spt-BR!2sbr!4v1676601668862!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.92432549037!2d-46.77888768469204!3d-23.642880984642524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce538f812215a1%3A0xd1c8a3025671497!2sAssocia%C3%A7%C3%A3o%20Jd%20Leonidas%20Moreira!5e0!3m2!1spt-BR!2sbr!4v1676601668862!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" onmousemove="mapaZoom()" onmouseout="mapaNormal()" id='mapaFuncao'></iframe>
         </form>
-    
+       
+        <footer>
+            <div>Vinicius Fernando copyright©- 2022 Todos os direitos reservados.</div>
+            <div><img class="img-contato" src="assets/img/github.png" alt="github"></div>
+            <div><img class="img-contato" src="assets/img/linkedin.png" alt="linkedin"></div>
+         </footer>
+    <script src="assets/js/script.js"></script>
+        </main>
     </main>
 
 </body>
